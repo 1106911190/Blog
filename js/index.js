@@ -10,13 +10,14 @@ $(document).ready(function(){
 		$('.slide').children().slideUp('fast');
 		$('.slide').animate({
 			'width':'0px'
-		},'slow');
+		},'slow',function(){
+			$('.close').hide();
+		});
 		$('body').animate({
 			'padding-left': '0px'},
 			'slow', function() {
 		});
 		$('.open').show();
-		$('.close').hide();
 	})
 	$('.open').click(function(){
 		$('body').animate({
