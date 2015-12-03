@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>page</title>
+	<link rel="stylesheet" href="css/post.css">
+</head>
+<body>
+	<div class="main">
+		<span class="open">
+			—
+		</span>
+		<div class="container">
+			<div class="content">
+				<div class="article">
+					<div class="art_header">
+						<h1>This is my first passage</h1>
+						<strong>Author</strong>:<span>Windard</span>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Time</strong>:<span>2015-12-2</span>
+					</div>
+					<div class="art_body">
+						<p>
+						<blockquote>
+							From a book whose name I forget
+						</blockquote>
+						</p>
+						<p><h3>0x01&nbsp;&nbsp;Begin</h3></p>
+						<p>网站优化是个很重要的话题，永恒不变，不论是前端，后台都要考虑。后台的优化主要考虑在加大服务器，提高网络速度方面，那么，前端可以做什么呢？</p>
+						<p><h3>0x02&nbsp;&nbsp;Second</h3></p>
+						<p>图片合并，减少http请求。把页面中常用的几个图片，或者logo或者小标记合并为一张图片。这样的话，可以有效的减少服务器请求的次数，加快页面加载速度。当然，你也可以考虑将图片转化为64位编码格式，不过这样的话要看它的编码是不是真的减少了</p>
+						<p><img src="image/pic.jpg" alt="Pic"></p>
+						<p>使用CDN加速，减少css样式表和JavaScript脚本文件的个数。使用cdn加速，它可以从互联上选取离用户最近的服务器，有效减少数据传输的时间。还有减少样式表和脚本文件的个数也是为了减少http请求。</p>
+						<p><h3>0x03&nbsp;&nbsp;Third</h3></p>
+						<p>expires  或者说  擅用cookies 。在写HTML页面的时候，将某些常用的组建设置cookies储存在用户的电脑上，也可以加快页面加载速度。不过要合理应用缓存哦</p>
+						<p>代码压缩。一般不推荐将HTML代码进行压缩，不过可以将css和JavaScript压缩，减少数据大小，当然能够加快数据传输速度了。一般采用gzip压缩，我也不太清楚，不就是代码压缩么？</p>
+						<p><h3>0x04&nbsp;&nbsp;Forth</h3></p>
+						<p>将css放在头部。在数据传输的时候就开始对页面进行渲染，可能对页面加载速度没有什么影响，但是有着极好的用户体验。（用户体验的精髓是什么：一个字：懒）。</p>
+						<p><h3>0x05&nbsp;&nbsp;Last</h3></p>
+						<p>将JavaScript放在底部。同样的原因，但是如果在HTML中插入了JavaScript的内容就会有些麻烦，所以还要视情况而定。一般选择在DOM加载完了之后加载脚本文件。</p>
+					</div>
+				</div>
+				<div class="other_page">
+					<hr>
+					<div class="button">
+						<button classs="pre">  
+							&#60;&#60;&#60;&nbsp;Previous page
+						</button>
+						<button class="next">
+							Next article&nbsp;&#62;&#62;&#62;
+						</button>
+					</div>
+				</div>
+				<div class="comments">
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<span class="copyright">
+				ALLRIGHT RESERVED BY <a href="http:simple.wenqiangyang.com">Windard</a>
+			</span>
+		</div>		
+	</div>
+	<div class="slide">
+		<span class="close">
+			X
+		</span>
+		<div class="slide_head">
+			<div class="head_logo">
+				<img src="image/head_logo.jpg" alt="logohead">
+			</div>
+			<div class="moto">
+				<span>Windard</span>
+				<p>NEVER GIVE UP</p>
+			</div>					
+		</div>
+		<div class="slide_body">
+			<ul class="task_list">
+				<div class="task_title">
+					<span>Task 1</span>
+				</div>
+				<li><a href="#">Firt thing</a></li>
+				<li><a href="#">second thing</a></li>
+				<li><a href="#">Second thing</a></li>
+			</ul>
+			<ul class="task_list">
+				<div class="task_title">
+					<span>Task 1</span>
+				</div>
+				<li><a href="#">Firt thing</a></li>
+				<li><a href="#">second thing</a></li>
+				<li><a href="#">Second thing</a></li>
+			</ul>
+			<ul class="task_list">
+				<div class="task_title">
+					<span>Task 1</span>
+				</div>
+				<li><a href="#">Firt thing</a></li>
+				<li><a href="#">second thing</a></li>
+				<li><a href="#">Second thing</a></li>
+			</ul>				
+		</div>
+	</div>
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

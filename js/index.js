@@ -14,8 +14,8 @@ $(document).ready(function(){
 		$('body').animate({
 			'padding-left': '0px'},
 			'slow', function() {
-			$('.open').show();
 		});
+		$('.open').show();
 		$('.close').hide();
 	})
 	$('.open').click(function(){
