@@ -1,8 +1,9 @@
 <?php 
-	if (isset($_COOKIE['username'])) {
-		echo 	"Wlcome ".$_COOKIE['username'];
+	if (isset($_SESSION['username'])) {
+		echo 	"Wlcome ".$_SESSION['username'];
 	}else{
-		header("Location:login.html");
+		// header("Location:login.php");
+		echo $_SESSION['username'];
 	}
  ?>
 <!DOCTYPE html>
