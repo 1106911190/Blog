@@ -30,7 +30,6 @@ $(document).ready(function(){
 		},'slow',function(){
 		});
 		$('.slide').children().slideDown('fast');
-		$('.open').hide();
-		
+		$('.open').hide();	
 	})	
 })

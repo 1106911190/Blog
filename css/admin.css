@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "Microsoft Jhenghei",Cambria,Georgia,"Hiragino Sans GB","Microsoft YaHei","Times New Roman",serif;
+	font-size: 16px;
+	position: relative;
+	line-height: 1.8;
+	height: 100%;
+	background-color: #fff;
+}
+a{
+	text-decoration: none;
+	color:#707070;
+}
+header{
+	background-color: #F5F5F5;
+	width:80%;
+	height:150px;
+	display: block;
+	margin:0 auto 0;
+}
+header .header{
+	padding:10px 50px;
+}
+header .logo{
+	margin:20px 50px;
+	line-height: 2.8em;
+	text-align: center;
+}
+ul li{
+	list-style: none;
+}
+.container{
+	width:80%;
+	background-color: #fff;
+	margin:0 auto 0;
+	overflow: hidden;
+}
+.container .slide{
+	width:30%;
+	font-size: 1.4em;
+	line-height: 1.8em;
+	float: left;
+	height:100%;
+	background-color: #ccc;
+}
+.container .slide .nav ul li{
+	padding: 8px 25px; 
+	cursor: pointer;
+
+}
+.container .slide .nav ul li:hover{
+	background: #666;
+	color: #DDDDDD;
+}
+.container .main{
+	float: right;
+	width:70%;
+}
+.container .main .content{
+	/*width:80%;*/
+	/*float: right;*/
+	padding: 20px 30px;
+	background-color: #eee;
+	/*height:100%;*/
+}
+.each_post{
+	margin-bottom: 10px;
+	border-bottom: 2px solid #aaa;
+}
+footer{
+	text-align: center;
+	margin-top:30px ;
+	padding: 10px 100px;
+}
